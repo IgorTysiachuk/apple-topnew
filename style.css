@@ -1,0 +1,89 @@
+.header {
+  height: 100px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.header_logo {
+  height: 60px;
+}
+.header_apple {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 13px;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-between;
+  width: 316px;
+  height: 22px;
+}
+.header_nav_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.header_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.header_div_img {
+  height: 60px;
+}
+.header_div_p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 568px;
+  height: 830px;
+}
+.container_list {
+  margin: 90px 84px 0 0;
+  width: 148px;
+  height: 152px;
+}
+.container_list_nav {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+}
+.container_goods {
+  display: flex;
+  margin: 90px 0;
+  width: 588px;
+  height: 844px;
+}
+.container_goods_iphoneOne {
+  margin: 0 67px;
+}
+.container_goods_iphoneTwo {
+  margin: 0 67px;
+  flex-wrap: wrap;
+}
+.container_goods_iphoneThree {
+  margin: 0 67px;
+}
+.container_goods_iphoneFour {
+  margin: 0 67px;
+}/*# sourceMappingURL=style.css.map */

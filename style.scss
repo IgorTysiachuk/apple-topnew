@@ -1,0 +1,94 @@
+$Nunito: 'Nunito', sans-serif;
+
+@mixin flexElement($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+.header {
+    height: 100px;  
+    height: 60px;
+    display: flex;
+    align-items: center;
+    &_logo {
+        height: 60px;
+    }
+    &_apple {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+        margin-top: 13px;
+    }   
+    &_nav {
+        display: flex;
+        justify-content: space-between;
+        width: 316px;
+        height: 22px;
+        &_p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+    &_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 10px;
+        &_img {
+            height: 60px;
+        }
+        &_p {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin-top: 10px;
+        }
+    }
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 568px;
+    height: 830px;
+    &_list{
+        margin: 90px 84px 0 0;
+        width: 148px;
+        height: 152px;
+        &_nav{
+            font-family: $Nunito;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    &_goods{
+        display: flex;
+        margin: 90px 0;
+        width: 588px;
+        height: 844px;
+        &_iphoneOne{
+            margin: 0 67px;
+        }
+        &_iphoneTwo{
+            margin: 0 67px;
+            flex-wrap: wrap;
+        }
+        &_iphoneThree{
+            margin: 0 67px;
+        }
+        &_iphoneFour{
+            margin: 0 67px;
+        }
+    }
+}
